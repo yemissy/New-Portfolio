@@ -8,6 +8,7 @@
   things I do outside of coding, such as braiding hair, acting & Singing. 
 
 ## Tech stack 
+ - Invision Studio for my design
  - React.js
  - Javascript
  - CSS
