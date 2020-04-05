@@ -1,0 +1,19 @@
+.landing{
+    /* border: solid gray; */
+    background-color: orange;
+    height: 100vh;
+    position: relative;
+    top: 6.4em;
+    z-index: -1;
+    background-image: url("../../Images/landingImage@1x.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0em;
+    z-index: 1;
+
+} */
