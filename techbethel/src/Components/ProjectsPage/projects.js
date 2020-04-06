@@ -4,7 +4,7 @@ import "./projects.css"
 
 export default function projects(props){
     return(
-        <div className="projects">
+        <div className="projects" onScroll={ () => props.updateView("projects")}>
             Projects
         </div>
     )

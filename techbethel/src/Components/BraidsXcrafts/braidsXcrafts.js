@@ -4,7 +4,7 @@ import "./braidsXcrafts.css"
 
 export default function braidsXcrafts(props){
     return(
-        <div className="braidsXcrafts">
+        <div className="braidsXcrafts" onScroll ={ () => props.updateView("braidsandcrafts")}>
             braidsXcrafts
         </div>
     )

@@ -26,16 +26,16 @@ class App extends Component{
 
   switchView = () => {
     switch (this.state.currentView) {
-      case "projects":
-        return <Projects />
+      case "projectS":
+        return <Projects updateView={this.updateView}/>
       case "braidsandcrafts":
-        return <Braidsxcrafts />
+        return <Braidsxcrafts updateView={this.updateView}/>
       case "bookservice":
-        return <Bookservice />
-      case "foter":
-        return <Footer />
+        return <Bookservice updateView={this.updateView}/>
+      case "footer":
+        return <Footer updateView={this.updateView}/>
       default:
-        return <Landing />
+        return <Landing updateView={this.updateView}/>
     }
   }
 
@@ -47,7 +47,10 @@ class App extends Component{
 
   //Write a function to handle scroll
   onScroll = () => {
-    console.log(window.innerHeight, window.scrollY)
+    
+    if((window.innerHeight + window.scrollY) >= (document.body.offsetHeight)){
+      console.log(window.innerHeight, window.scrollY, document.body.offsetHeight)
+    }
   }
 
 
@@ -58,7 +61,7 @@ class App extends Component{
           <Header />
         </header>
         {this.switchView()}
-        <Projects/>
+        <Bookservice />
       </div>
     );
   }

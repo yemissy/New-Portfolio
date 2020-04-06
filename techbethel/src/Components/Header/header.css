@@ -1,7 +1,8 @@
 .header{
-    /* border: solid gray; */
+    border: solid gray;
     background-color: white;
     height: 6em;
     width: 99.5%;
     position: fixed;
+    z-index: 1;
 }
