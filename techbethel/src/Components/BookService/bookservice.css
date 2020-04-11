@@ -1,5 +1,6 @@
 .bookservice{
-    border: solid gray;
+    /* border: solid yellow; */
     background-color: pink;
+    width:100vw;
     height: 100vh;
 }

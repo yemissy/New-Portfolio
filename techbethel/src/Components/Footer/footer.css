@@ -1,5 +1,6 @@
 .footer{
-    border: solid gray;
+    /* border: solid gray; */
     background-color: black;
     height: 10em;
+    width: 100vw;
 }

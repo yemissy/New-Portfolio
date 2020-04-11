@@ -1,7 +1,28 @@
-.projects{
-    /* border: solid gray; */
-    background-color: yellow;
-    height: 100vh;
-    /* background-attachment: fixed; */
-    /* z-index: -1; */
+.projects-container {
+    /* border: solid green; */
+    width: 100vw;
+    background: white;
+    height: 90vh;
+    position: absolute;
+    /* opacity: 0.7; */
+}
+
+.projects {
+    /* border: solid black; */
+    width: inherit;
+    height: 84vh;
+    background-image: url('../../Images/profileimg3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    opacity: 0.6;
+    position: absolute;
+    /* margin-top: 0em; */
+}
+
+.projects-container h1 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 1.7em;
 }

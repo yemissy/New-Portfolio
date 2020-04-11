@@ -1,9 +1,26 @@
-.landing{
-    /* border: solid gray; */
+.landing-container {
+    /* border: solid blue; */
+    width: 100vw;
+    background: darkgray;
     height: 100vh;
-    background-image: url("../../Images/landing2.jpg");
-    background-size: 27rem;
-    background-repeat: no-repeat;
+}
+.landing {
+    border: solid orange;
+    background: purple;
+    position: fixed;
+    width: inherit;
+    height: inherit;
+    background-image: url('../../Images/Landing1.jpg');
     background-attachment: fixed;
-    position: relative;
+    background-position-y: 7em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.landing h1{
+    text-align: center;
+    margin-top: 19.3em; 
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    font-size: 1.7em;
 }
